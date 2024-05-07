@@ -1,7 +1,984 @@
-<p>Hello 大家好</p>
-<p>我是，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html>
+<html lang="en">
 
-<ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ音乐</title>
+  <style>
+    * {
+    padding: 0;
+    margin: 0;
+}
+ 
+.div0 {
+    height: 4000px;
+    background-color: #F5F5F5;
+}
+ 
+.div0_1 {
+    width: 1580px;
+    height: 130px;
+    background-color: white;
+}
+ 
+.box {
+    width: 1380px;
+    height: 80px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+ 
+.wrap {
+    background-color: black;
+}
+ 
+.nav {
+    float: left;
+}
+ 
+.nav .imga1 {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 18px;
+    margin-top: 13px;
+}
+ 
+.box ul {
+    float: left;
+    list-style-type: none;
+}
+ 
+.box ul li {
+    width: 110px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    float: left;
+    font-size: 16px;
+    font-family: 绮椾綋;
+}
+ 
+.box ul .main1 {
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid pink; */
+}
+ 
+.box ul .main2 {
+    width: 80px;
+    height: 80px;
+}
+ 
+li:hover {
+    background-color: #31C37C;
+    color: white;
+}
+ 
+.box ul .main3 {
+    width: 80px;
+    height: 80px;
+}
+ 
+ 
+/* .main3:hover {
+    background-color: #31C37C;
+    color: white;
+} */
+ 
+.box ul .main4 {
+    width: 80px;
+    height: 80px;
+}
+ 
+ 
+/* .main4:hover {
+    background-color: #31C37C;
+    color: white;
+} */
+ 
+.box ul .main5 {
+    width: 80px;
+    height: 80px;
+}
+ 
+.input1 {
+    width: 210px;
+    height: 35px;
+    background-image: url(D:\web鍓嶇\绯荤粺鐝璡qq闊充箰.html\img\img\39.png);
+    background-repeat: no-repeat;
+    border: 1px solid #E4E4E4;
+    background-position: right;
+    border-radius: 4px;
+    outline-color: hsl(161, 37%, 64%);
+}
+ 
+.div1 {
+    padding-top: 22px;
+    width: 730px;
+    height: 58px;
+    float: right;
+}
+ 
+.div1 .div3 {
+    width: 78px;
+    height: 20px;
+    font-size: 17px;
+    font-family: "榛戜綋";
+    margin-top: 10px;
+    margin-right: 400px;
+    float: right;
+}
+ 
+.div1 .div4 {
+    width: 150px;
+    height: 35px;
+    margin-top: -35px;
+    margin-right: 260px;
+    float: right;
+    background: #31C37C;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 30px;
+}
+ 
+.div1 .div5 {
+    width: 100px;
+    height: 35px;
+    margin-top: -35px;
+    margin-right: 120px;
+    float: right;
+    border: 1px solid #E4E4E4;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+ 
+.div6 {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+ 
+.div6 :hover {
+    color: #31C37C;
+}
+ 
+.div6 span {
+    display: block;
+    float: left;
+    margin-left: 35px;
+}
+ 
+.div7 {
+    width: 1580px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 榛戜綋;
+    font-weight: bold;
+}
+ 
+.div8 {
+    width: 1580px;
+    height: 450px;
+    background: white;
+}
+ 
+.div8_1 {
+    width: 760px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+ 
+.div8_1 :hover {
+    color: #31C37C;
+}
+ 
+.div8_1 span {
+    float: left;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+ 
+.div8_2 {
+    width: 1448px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 66px;
+    display: inline-block
+}
+ 
+.div8_2 .img1 {
+    margin-left: 0px;
+}
+ 
+.div8_2 img {
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-left: 57px;
+}
+ 
+.div8_2 .span1 {
+    width: 58px;
+    height: 116px;
+    background: #EAECEA;
+    margin-left: 2px;
+    margin-top: 52px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    line-height: 116px;
+}
+ 
+.div8_2 .span2 {
+    width: 58px;
+    height: 116px;
+    background: #EAECEA;
+    margin-left: 0px;
+    margin-top: 52px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    line-height: 116px;
+}
+ 
+.div8_3 {
+    width: 1448px;
+    height: 70px;
+    margin-left: 66px;
+    margin-top: 2px;
+}
+ 
+.div8_3 span {
+    width: 220px;
+    height: 70px;
+    display: inline-block;
+    margin-left: 52px;
+}
+ 
+.div8_3 .p1 {
+    color: #B3B3B3;
+    line-height: 40px;
+}
+ 
+.div8_3 .p2 {
+    font-size: 15px;
+}
+ 
+.div8_3 .p3 {
+    font-size: 14px;
+}
+ 
+.div8_4 {
+    width: 1580px;
+    height: 20px;
+    margin-top: 30px;
+}
+ 
+.div8_4 span {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background: #E8E8E8;
+    display: inline-block;
+}
+ 
+.div8_4 .span1 {
+    background: #E8E8E8;
+    margin-left: 800px;
+}
+ 
+.div8_4 .span1:hover {
+    background: #AFAFAF;
+}
+ 
+.div8_4 .span2:hover {
+    background: #AFAFAF;
+}
+ 
+.div8_4 .span2 {
+    background: #E8E8E8;
+}
+ 
+.div9 {
+    width: 1580px;
+    height: 500px;
+    background: white;
+}
+ 
+.div9_1 {
+    width: 1448px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+ 
+.div9_1 :hover {
+    color: #31C37C;
+}
+ 
+.div9_1 span {
+    float: left;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+ 
+.div9_1 .span1 {
+    width: 100px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #808080;
+}
+ 
+.div9_1 .span2 {
+    float: left;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+ 
+.div9_2 {
+    width: 1448px;
+    height: 102px;
+    margin-top: 60px;
+    margin-left: 66px;
+}
+ 
+.div9_2 img {
+    width: 100px;
+    height: 100px;
+}
+ 
+.div9_2 span {
+    width: 400px;
+    height: 102px;
+    background: #F9F9F9;
+    display: inline-block
+}
+ 
+.div9_2 .span1 {
+    margin-left: 100px;
+}
+ 
+.div9_2 .span2 {
+    float: right;
+}
+ 
+.div9 .font1 {
+    position: relative;
+    top: -60px;
+}
+ 
+.div9 .font2 {
+    position: relative;
+    top: -30px;
+    left: -53px;
+    color: #B3B3B3;
+}
+ 
+.div9_2 .font3 {
+    position: relative;
+    top: -40px;
+    left: 80px;
+    color: #B3B3B3;
+}
+ 
+.div9_3 {
+    width: 1448px;
+    height: 102px;
+    margin-top: 10px;
+    margin-left: 66px;
+}
+ 
+.div9_3 img {
+    width: 100px;
+    height: 100px;
+}
+ 
+.div9_3 span {
+    width: 400px;
+    height: 102px;
+    background: #F9F9F9;
+    display: inline-block
+}
+ 
+.div9_3 .span1 {
+    margin-left: 100px;
+}
+ 
+.div9_3 .span2 {
+    float: right;
+}
+ 
+.div9_3 .font3 {
+    position: relative;
+    top: -40px;
+    left: 80px;
+    color: #B3B3B3;
+}
+ 
+.div8_4 {
+    width: 1580px;
+    height: 20px;
+    margin-top: 30px;
+}
+ 
+.div9_4 span {
+    width: 10px;
+    height: 10px;
+    margin-top: 40px;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: inline-block;
+}
+ 
+.div9_4 .span1 {
+    background: #E8E8E8;
+    margin-left: 800px;
+}
+ 
+.div9_4 .span1:hover {
+    background: #AFAFAF;
+}
+ 
+.div9_4 .span2 {
+    background: #E8E8E8;
+}
+ 
+.div9_4 .span2:hover {
+    background: #AFAFAF;
+}
+ 
+.div9_4 .span3 {
+    background: #E8E8E8;
+}
+ 
+.div9_4 .span3:hover {
+    background: #AFAFAF;
+}
+ 
+.div10 {
+    width: 1580px;
+    height: 400px;
+    background: white;
+}
+ 
+.div10_1 {
+    width: 1448px;
+    height: 280x;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+ 
+.div10_1 .span1 {
+    float: right;
+}
+ 
+.div11 {
+    width: 1580px;
+    height: 750px;
+    background: white;
+}
+ 
+.div11_1 {
+    width: 1448px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+ 
+.div11_1 :hover {
+    color: #31C37C;
+}
+ 
+.div11_1 span {
+    float: left;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+ 
+.div11_1 .span1 {
+    width: 100px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+}
+ 
+.div11_1 .span2 {
+    float: left;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+ 
+.div12 {
+    width: 1580px;
+    height: 530px;
+    background: white;
+}
+ 
+.div12_2 {
+    width: 1448px;
+    height: 420px;
+    margin-top: 20px;
+    margin-left: 66px;
+    display: inline-block
+}
+ 
+.div12_2 img {
+    margin-left: 59px;
+    width: 200px;
+    height: 420px;
+}
+.div12_2 .img1 {
+    float: left;
+}
+ 
+.div13 {
+    width: 1580px;
+    height: 550px;
+    background: white;
+}
+ 
+.div13_2 {
+    width: 1448px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 66px;
+    display: inline-block
+}
+ 
+.div13_2 img {
+    width: 200px;
+    margin-left: 30px;
+}
+ 
+.div13_3 {
+    width: 1448px;
+    height: 70px;
+    margin-left: 66px;
+    margin-top: 2px;
+}
+ 
+.div13_3 span {
+    width: 220px;
+    height: 70px;
+    display: inline-block;
+    margin-left: 10px;
+}
+ 
+.div13_3 .p1 {
+    color: #B3B3B3;
+    line-height: 30px;
+}
+ 
+.div13_3 .p2 {
+    font-size: 15px;
+}
+ 
+.div13_3 .p3 {
+    font-size: 14px;
+}
+ 
+.p1 .img {
+    display: inline-block
+}
+ 
+.div14 img {
+    width: 1580px;
+}
+  </style>
+</head>
 
-</ul>
+
+<body>
+    <div class="div0">
+        <div class="div0_1">
+            <div class="box" id="box">
+                <div class="nav">
+                    <img src="https://y.qq.com/mediastyle/yqq/img/logo.png?max_age=2592000" alt="#" class="imga1">
+                </div>
+                <ul class="clearfix">
+                    <li class="main1">音乐馆</li>
+                    <li class="main2">我的音乐</li>
+                    <li class="main3">客户端</li>
+                    <li class="main4">音乐号</li>
+                    <li class="main5">VIP</li>
+                </ul>
+                <div class="div1">
+                    <input type="text" class="input1" required lay-verify="required" placeholder="&nbsp;搜索音乐、歌单、MV、用户"
+                        autocomplete="off">
+                    <div class="div3">登录</div>
+                    <div class="div4">开通绿钻豪华版</div>
+                    <div class="div5">开通付费包</div>
+                </div>
+            </div>
+            <hr>
+            <div class="div6">
+                <span>首页</span>
+                <span>歌手</span>
+                <span>新碟</span>
+                <span>排行榜</span>
+                <span>分类歌单</span>
+                <span>电台</span>
+                <span>MV</span>
+                <span>数字专辑</span>
+                <span>服务</span>
+            </div>
+        </div>
+        <div class="div8">
+            <div class="div7">歌单推荐</div>
+            <div class="div8_1">
+                <span>为你推荐</span>
+                <span>网络歌曲</span>
+                <span>经典国语</span>
+                <span>经典</span>
+                <span>官方歌单</span>
+                <span>情歌</span>
+            </div>
+            <div class="div8_2">
+                <span class="span1">
+                    << /span>
+                        <span><img src="https://img1.kuwo.cn/star/userpl2015/10/13/1687855674366_132026710_500.jpg"
+                                alt="" class="img1"></span>
+                        <span><img src="https://img1.kuwo.cn/star/userpl2015/86/89/1658100247922_559380086_500.jpg"
+                                alt=""></span>
+                        <span><img src="https://img1.kuwo.cn/star/userpl2015/36/51/1670932769923_590952336_500.jpg"
+                                alt=""></span>
+                        <span><img src="https://img1.kuwo.cn/star/userpl2015/99/16/1658138114993_470489299_500.jpg"
+                                alt=""></span>
+                        <span><img src="https://img1.kuwo.cn/star/userpl2015/47/69/1662278931552_528137547_500.jpg"
+                                alt="" class="img5"></span>
+                        <span class="span2">></span>
+            </div>
+            <div class="div8_3">
+                <span>
+                    <p>每日最新单曲推荐</p>
+                    <p class="p1">播放量：20474.5万</p>
+                </span>
+                <span>
+                    <p class="p2">抖音热歌|你是落在我世界里的一束光</p>
+                    <p class="p1">播放量：6.9万</p>
+                </span>
+                <span>
+                    <p class="p2">抖音伤感|伤了心的人需要音乐来安抚</p>
+                    <p class="p1">播放量：2.5万</p>
+                </span>
+                <span>
+                    <p class="p3">100首抖音热门：网络歌曲漫游指南</p>
+                    <p class="p1">播放量：34.8万</p>
+                </span>
+                <span>
+                    <p>抖音古风|我爱苍生，也爱一人</p>
+                    <p class="p1">播放量：50.2万</p>
+                </span>
+            </div>
+            <div class="div8_4">
+                <span class="span1"></span>
+                <span class="span2"></span>
+            </div>
+        </div>
+        <div class="div9">
+            <div class="div7">新歌首发</div>
+            <div class="div9_1">
+                <span class="span1">▷播放全部</span>
+                <span class="span2">最新</span>
+                <span>内地</span>
+                <span>港台</span>
+                <span>欧美</span>
+                <span>韩国</span>
+                <span>日本</span>
+            </div>
+            <div class="div9_2">
+                <span><img src="https://img4.kuwo.cn/star/albumcover/500/s3s82/8/3939343628.png" alt="">
+                    <font class="font1">西楼儿女</font>
+                    <font class="font2">岳云鹏</font>
+                    <font class="font3">03：34</font>
+                </span>
+                <span class="span1"><img src="https://img3.kuwo.cn/star/albumcover/500/s3s91/36/815315566.png" alt="">
+                    <font class="font1">大风吹倒梧桐树</font>
+                    <font class="font2">侯泽润</font>
+                    <font class="font3">03：56</font>
+                </span>
+                <span class="span2"><img src="http://img3.kuwo.cn/star/albumcover/500/s3s20/22/2864462837.png" alt="">
+                    <font class="font1">落地生花</font>
+                    <font class="font2">韩小欠</font>
+                    <font class="font3">03：33</font>
+                </span>
+            </div>
+            <div class="div9_3">
+                <span><img src="https://img2.kuwo.cn/star/albumcover/500/s3s33/70/689504826.jpg" alt="">
+                    <font class="font1">我要的不是雪</font>
+                    <font class="font2">李发发</font>
+                    <font class="font3">03：18</font>
+                </span>
+                <span class="span1"><img src="https://img1.kuwo.cn/star/albumcover/500/s3s33/96/2487701761.jpg" alt="">
+                    <font class="font1">负我不负她</font>
+                    <font class="font2">赵洋</font>
+                    <font class="font3">03：43</font>
+                </span>
+                <span class="span2"><img src="https://img1.kuwo.cn/star/albumcover/500/s3s48/75/1228677297.jpg" alt="">
+                    <font class="font1">从不会投降</font>
+                    <font class="font2">常超凡</font>
+                    <font class="font3">03：39</font>
+                </span>
+            </div>
+            <div class="div9_3">
+                <span><img src="https://y.qq.com/music/photo_new/T002R300x300M000002TEkuh3IiboB_1.jpg?max_age=2592000"
+                        alt="">
+                    <font class="font1">过山车</font>
+                    <font class="font2">欧阳靖</font>
+                    <font class="font3">03：33</font>
+                </span>
+                <span class="span1"><img
+                        src="https://y.qq.com/music/photo_new/T002R300x300M000003vAQuu2uzoBI_1.jpg?max_age=2592000"
+                        alt="">
+                    <font class="font1">漂流瓶</font>
+                    <font class="font2">AK刘彰</font>
+                    <font class="font3">03：19</font>
+                </span>
+                <span class="span2"><img
+                        src="https://y.qq.com/music/photo_new/T002R300x300M000004Y8pOq2aYK1N_6.jpg?max_age=2592000"
+                        alt="">
+                    <font class="font1">so I don’t forget</font>
+                    <font class="font2">米卡</font>
+                    <font class="font3">03：04</font>
+                </span>
+            </div>
+            <div class="div9_4">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span3"></span>
+            </div>
+
+        </div>
+        <div class="div11">
+            <div class="div7">新碟首发</div>
+            <div class="div11_1">
+                <span class="span1">更多></span>
+                <span class="span2">内地</span>
+                <span>港台</span>
+                <span>欧美</span>
+                <span>韩国</span>
+                <span>日本</span>
+                <span>其他</span>
+            </div>
+            <div class="div8_2">
+                <span class="span1">
+                    << /span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M00000209mRP4M1Y7T.jpg?max_age=2592000"
+                                alt="" class="img1"></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000004bocMp382EQj.jpg?max_age=2592000"
+                                alt=""></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000002TYgDg0bSq9P.jpg?max_age=2592000"
+                                alt=""></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000004e3NA637BCdb.jpg?max_age=2592000"
+                                alt=""></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000003mzTfA3ZTvpd.jpg?max_age=2592000"
+                                alt="" class="img5"></span>
+                        <span class="span2">></span>
+            </div>
+            <div class="div8_3">
+                <span>
+                    <p>通过繁星的音阶</p>
+                    <p class="p1">闪耀暖暖</p>
+                </span>
+                <span>
+                    <p class="p2">看世界万万千，唯有你一人入眼</p>
+                    <p class="p1">EnjiA魏恩佳</p>
+                </span>
+                <span>
+                    <p class="p2">Christmas Secret</p>
+                    <p class="p1">吴晛</p>
+                </span>
+                <span>
+                    <p class="p3">热烈的马</p>
+                    <p class="p1">何屹繁</p>
+                </span>
+                <span>
+                    <p>优诺花开</p>
+                    <p class="p1">欧牧优诺</p>
+                </span>
+            </div>
+            <div class="div8_2">
+                <span class="span1">
+                    << /span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000004C8ko41f3Xhf.jpg?max_age=2592000"
+                                alt="" class="img1"></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M0000004MHIJ2BtyW2.jpg?max_age=2592000"
+                                alt=""></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000001GY0YY2dGJgK.jpg?max_age=2592000"
+                                alt=""></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000003TfEjC0Pp1jX.jpg?max_age=2592000"
+                                alt=""></span>
+                        <span><img
+                                src="https://y.qq.com/music/photo_new/T002R300x300M000004JMSN50sCHI7.jpg?max_age=2592000"
+                                alt="" class="img5"></span>
+                        <span class="span2">></span>
+            </div>
+            <div class="div8_3">
+                <span>
+                    <p>微风降临</p>
+                    <p class="p1">冯提莫</p>
+                </span>
+                <span>
+                    <p class="p2">Love Theory (明堂唱片冬日特辑：呼)</p>
+                    <p class="p1">李丁丁</p>
+                </span>
+                <span>
+                    <p class="p2">今年你失去了什么</p>
+                    <p class="p1">百万调音师</p>
+                </span>
+                <span>
+                    <p class="p3">危险游戏</p>
+                    <p class="p1">罗景文</p>
+                </span>
+                <span>
+                    <p>晚风八千里</p>
+                    <p class="p1">阿书Veson</p>
+                </span>
+            </div>
+        </div>
+        <div class="div12">
+            <div class="div7">排行榜</div>
+            <div class="div11_1">
+                <span class="span1">更多></span>
+            </div>
+            <div class="div12_2">
+                <span><img src="./新建文件夹/tupian/01.png" alt="" class="img1"></span>
+                <span><img src="./新建文件夹/tupian/02.png" alt=""></span>
+                <span><img src="./新建文件夹/tupian/03.png" alt=""></span>
+                <span><img src="./新建文件夹/tupian/04.png" alt=""></span>
+                <span><img src="./新建文件夹/tupian/05.png" alt=""></span>
+            </div>
+        </div>
+        <div class="div13">
+            <div class="div7">MV</div>
+            <div class="div11_1">
+                <span class="span2">精选</span>
+                <span>内地</span>
+                <span>港台</span>
+                <span>欧美</span>
+                <span>韩国</span>
+                <span>日本</span>
+            </div>
+            <div class="div13_2">
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101002j4X4q1URtRK.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101000eS2HG2SZGp9.jpg?max_age=2592000"
+                        alt="" class="img1"></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101003yRELN2AsW3c.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M000001EZ60v3QSAmu.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101002H0b400ZqGpd.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101001XPHtS0TopK8.jpg?max_age=2592000"
+                        alt="" class="img5"></span>
+            </div>
+            <div class="div13_3">
+                <span>
+                    <p> 血脉觉醒</p>
+                    <p class="p1">宝石Gem</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p class="p2">人间道 (《三大队》电影推广曲)</p>
+                    <p class="p1">张译 /魏晨 /曹炳琨 /王骁 </p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p class="p2">野生</p>
+                    <p class="p1">萧敬腾</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p class="p3">落子江山</p>
+                    <p class="p1">井胧</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p>打工累</p>
+                    <p class="p1">大鹏 /白客 /庄达菲 /孙艺洲</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p>待我来</p>
+                    <p class="p1">刘宇 /吴宣仪</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+            </div>
+            <div class="div13_2">
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101001WdIMN3PdHcq.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M102001ui5Uk05IjPJ.jpg?max_age=2592000"
+                        alt="" class="img1"></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101002QE7Vw41kqJo.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101003VtU003wieCQ.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101002ln6HR3I017N.jpg?max_age=2592000"
+                        alt=""></span>
+                <span><img src="https://y.qq.com/music/photo_new/T015R640x360M101000zkOA43p8VRH.jpg?max_age=2592000"
+                        alt="" class="img5"></span>
+            </div>
+            <div class="div13_3">
+                <span>
+                    <p> 道理都懂（《潜行》电影片尾曲）</p>
+                    <p class="p1">刘德华</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p class="p2">向海而生</p>
+                    <p class="p1">陈楚生</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p class="p2">十年一刻</p>
+                    <p class="p1">苏打绿</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p class="p3">李建国</p>
+                    <p class="p1">汪峰</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p>伍佰的风范 Come Back To Me</p>
+                    <p class="p1">万妮达Vinida Weng /Min-G</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+                <span>
+                    <p>厉旭《Lingering》MV</p>
+                    <p class="p1">厉旭</p>
+                    <!-- <p class="p1"><img src="./img/img/Image 40.png">5.2万</p> -->
+                </span>
+            </div>
+            <div class="div8_4">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <span class="span2"></span>
+                <span class="span2"></span>
+            </div>
+        </div>
+        <div class="div14"><img src="./新建文件夹/tupian/06.png" alt="" class=""></div>
+    </div>
+</body>
+
+</html>
